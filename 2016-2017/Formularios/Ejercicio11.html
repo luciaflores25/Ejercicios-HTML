@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="charset=utf-8">
+<title>Ejercicio 1</title>
+
+</head>
+<body>
+	
+	<form name="Formmulario" action="" method="get">
+	<h4>Información sobre el producto</h4>
+	<fieldset>
+	<legend>Datos básicos</legend>
+	Nombre: <br><input type="text" size="50"/><br>
+	Descripción: <br><textarea rows="4" cols="40"></textarea><br>
+	Foto <input type="file" value="Elegir..."/><br>
+	<input type="checkbox"/> Añadir contador de visitas
+	
+	</fieldset>
+	
+	<fieldset>
+	<legend>Datos económicos</legend>
+	Precio <input type="number" min="0" max="10000"/>€
+	Impuestos <select name="impuestos">	
+		  <option value="4%"> 4%
+		  <option value="7%"> 7%
+		  <option value="16%"> 16%
+		  <option value="21%"> 21%
+		  <option value="25%"> 25%
+		  <option value="28%"> 28%
+		  <option value="32%"> 32%
+		  <option value="35%"> 35%
+
+		</select><br>
+		<br>
+		<br>
+	Promoción<br><input type="radio" name="opcion" value="1"/>Ninguno<br>
+	<input type="radio" name="opcion" value="1"/>Transporte gratuito<br>
+	<input type="radio" name="opcion" value="1"/>Descuento 5%<br>
+	</fieldset><br>
+	<input type="submit" value="Enviar">
+	
+	
+	
+	
+	
+	</form>
+</body>
+</html>

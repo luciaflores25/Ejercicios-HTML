@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="charset=utf-8">
+<title>Ejercicio 4</title>
+
+</head>
+<body>
+	
+	<form name="Formmulario" action="" method="get" disabled="desabilitar">
+	<!-- disabled="desabilitar" Para desabilitar el botón de envío hasta que se hayan completadot odos loa campos -->
+	
+	<h3>Información sobre el producto</h3>
+	
+		Nombre: <input type="text" size="30" maxlength="10" placeholder="Escribe tu nombre aqui" required="required"/><br>
+		<!-- type="text" Este input type es para escribir texto dentro del formulario-->
+		<!-- size="30" Es para el tamaño del rectángulo del formulario-->
+		<!-- maxlength="10" Es para que solo se puedan escribir 10 caracteres de tipo text -->
+		<!-- placeholder="Escribe tu nombre aqui" Esto es para mostrar una pista dentro del elemento del formulario -->
+		<!-- required="required" Es para que cuando el campo este vacío el formulario no se pueda enviar -->
+		Contraseña:<input type="password" placeholder="min 6 letras..." pattern=".{6,}"/><br>
+		<!-- pattern=".{6,}" Es para limitar la sintaxis, en este caso para que la contraseña tenga más de 6 letras-->
+		<select name="variable" size="5" multiple="multiple"> 
+		<!-- multiple="multiple" Para que aparezca una barra de desplazamiento a la hora de elegir opiones -->
+			<option value=1> opción 1
+			<option value=2> Opción 2
+			<option value=3> Opción 3
+			<option value=4> Opción 4
+		</select><br>
+		E-mail: <input type="email" name="email" autocomplete="on"><br>
+		<!-- autocomplete="on" Este atributo es para que salgan los emails(en este caso) que hayas hecho en otras busquedas -->
+		<input list="browsers">
+		<!-- atributo list y datalist para asociar varios campos de entrada -->
+			<datalist id="browsers">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist><br>
+		Url:<input type="url" name="url" id="url" autofocus><br>
+		<!-- atributo autofocus es para que cuando se cargue la página este el cursor en esta parte -->
+		Edad de 5 en 5:<input type="number" name="edad" id="edad" min="0" max="100" step="5" placeholder="X 5"><br>
+		<!-- min="0" Este atributo es para que no se puedan introducir números negativos -->
+		<!-- max="100" Este atributo es para que no se pueda introducir un valor mayor que 100 -->
+		<!-- step="5" Este atributo en este caso es para que los números vaya aumntando o disminuyendo de 5 en 5 al pulsar la frecha del formulario -->
+		
+		
+	<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

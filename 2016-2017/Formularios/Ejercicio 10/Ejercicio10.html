@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="charset=utf-8">
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<title>Ejercicio 9</title>
+
+</head>
+<body>
+	
+	
+	<form name="Formmulario" action="enlace.html" method="get">
+	<h4 class="titulo">Encuesta - Preferencias de usuario</h4>
+	<p>Este test ha sido desarrollado a modo de ejemplo por la alumna Lucía Flores de primero de DAW</p>
+	<hr size="1,5" color="black"/>
+	
+	<p><b>Pregunta 1:</b>¿Cuál de las siguientes imágens te gusta más?</p>
+	<input type="radio" name="foto1" value="1" />
+	<img src="dubai.jpg" height="152" width="250"><br>
+	<input type="radio" name="foto1" value="1" />
+	<img src="nueva_york.jpg" height="152" width="250">
+	
+	<p><b>Pregunta 2:</b>Indica que lugares prefieres para descansar:</p>
+	<input type="checkbox" class="cuadrado"/> Playa<br>
+	<input type="checkbox" class="cuadrado"/> Campo<br>
+	<input type="checkbox" class="cuadrado"/> Montaña<br>
+	
+	<p><b>Pregunta 3:</b>Introduzca su nombre y apellido:</p>
+	<table>
+	<td><tr>Nombre: <input type="text"/></tr></td><br>
+	<td><tr>Apellidos:  <input type="text"/></tr></td>
+	</table>
+	
+	<p><b>Pregunta 4:</b>Ciudad de origen:</p>
+	
+		<select name="ciudad">
+	
+		  <option value="malaga"> Málaga
+		  <option value="madrid"> Madrid
+		  <option value="asturias"> Asturias
+		  <option value="barcelona"> Barcelona
+		  <option value="Ciudad real"> Ciudad Real
+		  <option value="valladolid"> Valladolid
+		 </select><br>
+	<input type="submit" value="Enviar Cuestionario">
+	
+	</form>
+</body>
+</html>

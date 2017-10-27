@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="charset=utf-8">
+<title>Ejercicio 2</title>
+
+</head>
+<body>
+	
+	<form name="Formmulario" action="" method="get">
+	<h3>Rellena tu CV</h3>
+	<fieldset>
+	<legend>Datos Personales</legend>
+	Provincia <br><select name="color">
+		<option selected>-selecciona-</option>
+	
+		  <option value="malaga"> Málaga
+		  <option value="almeria"> Almería
+		  <option value="sevilla"> Sevilla
+		  <option value="jaen"> Jaen
+		  <option value="granada"> Granada
+		  <option value="huelva"> Huelva
+		  <option value="cadiz"> Cádiz
+		  <option value="cordoba"> Córdoba
+		  <option value="Madrid"> Madrid
+		  <option value="zaragoza"> Zaragoza
+		</select><br><br>
+	Fecha de nacimiento<br>
+	<input type="number" min="0" max="31"/>de
+	<select name="meses">	
+		  <option value="Enero"> Enero
+		  <option value="febrero"> Febrero
+		  <option value="marzo"> Marzo
+		  <option value="abril"> Abril
+		  <option value="mayo"> Mayo
+		  <option value="junio"> Junio
+		  <option value="julio"> Julio
+		  <option value="agosto"> Agosto
+		  <option value="septiembre"> Septiembre
+		  <option value="octubre"> Octubre
+		  <option value="noviembre"> Noviembre
+		  <option value="diciembre"> Diciembre
+
+		</select>de
+		<input type="number" min="1920" max="2017"/><br><br>
+		Temas de interés<br>
+		<select name="variable" size="5" multiple="multiple"> 
+			<option value=1> Administración de base de datos
+			<option value=2> Análisis y programación
+			<option value=3> Arquitectura
+			<option value=4> Calidad
+			<option value=5> EPR, CRM, Business Inteligence
+			<option value=6> Lenguajes de Programación
+			<option value=7> Asignaturas
+			<option value=8> Horarios
+		</select> 
+		
+	
+	</fieldset><br>
+	<input type="submit" value="Enviar">
+
+	</form>
+</body>
+</html>

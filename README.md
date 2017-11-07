@@ -5,15 +5,18 @@ Ejercicios y trabajos de la asignatura de **Lenguaje de Marcas** de **1º de DAW
 
 ## A continuación se muestrar imágenes de los Ejercicios:
 
+<p><b>Ejercicio Otoño con tile<b><p>
+<img src="img/otoño1.JPG"><br>
+
+<p><b>Otro Ejercicio Otoño sin tile<b><p>
+<img src="img/otoño2.JPG"><br>
+
 <p><b>Ejercicio LLuvia con tile<b><p>
-<img src="img/lluvia1.JPG" width="500px"><br>
-<img src="img/lluvia2.JPG"><br>
+<img src="img/lluvia1.JPG" width="600px"><br>
+<img src="img/lluvia2.JPG" width="600px"><br>
 
 <p><b>Ejercicio LLuvia con imagen de fondo<b><p>
-<img src="img/lluvia3.JPG" width="500px"><br>
-
-<p><b>Ejercicio Otoño<b><p>
-<img src="img/otoño.JPG"><br>
+<img src="img/lluvia3.JPG" width="600px"><br>
 
 <p><b>Ejercicio Halloween Clase<b><p>
 <img src="img/halloweenClase.JPG"><br>

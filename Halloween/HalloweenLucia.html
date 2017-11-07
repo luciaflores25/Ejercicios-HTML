@@ -1,0 +1,219 @@
+<!DOCTYPE>
+<html>
+<html>
+	<head>
+		<title>Fiesta Halloween</title>
+		<meta charset="utf-8">
+		<link href="img/favicon.ico" rel="shortcut icon">
+		<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+		<style type="text/css">
+
+			/* CSS */
+
+			body{/*overflow-x:hidden;/*Para quitar la barra de desplazamiento horizontal*/
+				/*overflow-y:hidden;/*Para quitar la barra de desplazamiento vertical*/
+				background-image: url(img/tile.jpg);}
+
+			#wrapper{background-image: url(img/tuberias.jpg);
+					border-radius: 2em;
+					box-shadow: 3px 13px 175px 42px black;
+					font-family: 'Creepster', cursive;
+					width: 945px;
+					height: 708px;
+					margin: 0 auto;}
+
+			#cafeteria{background-color: black;
+						margin-left: 0 auto;
+						width: 950px;
+						height: 708px;
+						visibility: hidden;}
+
+			#p1{background-image: url(img/manchaSangre.jpg);
+				width: 360px;
+				height: 150px;
+				padding: 15px;
+				border-radius: 1em;
+				font-size: 28px;
+				text-align: center;
+				position: absolute;
+				left: 100px;
+				top: 70px;}
+
+			#puerta{border-radius: 1em;
+					border-radius: 1em;
+					width: 200px;
+					height: 360px;
+					position: absolute;
+					left: 1150px;
+					top: 310px;
+					visibility: hidden;}
+
+			#marcoMano{background-image: url(img/manchaSangre.jpg);
+						border-radius: 1em;
+						width: 340px;
+						height: 250px;
+						position: absolute;
+						left: 150px;
+						top: 320px;
+						visibility: hidden;}
+
+			#mano{border-radius: 1em;
+					width: 320px;
+					height: 230px;
+					padding: 10px;
+					visibility: hidden;}
+
+			#boton1{width: 35px;
+					height: 35px;
+					position: absolute;
+					left: 340px;
+					top: 245px;}
+
+			#boton2{width: 35px;
+					height: 35px;
+					position: absolute;
+					left: 440px;
+					top: 515px;
+					visibility: hidden;}
+
+			#retroceso{width: 50px;
+						height: 50px;
+						position: absolute;
+						left: 120px;
+						top: 20px;
+						visibility: hidden;}
+
+			#p2{background-image: url(img/fuegoNaranja.jpg);
+				color: orange;
+				width: 360px;
+				height: 150px;
+				padding: 15px;
+				border-radius: 1em;
+				box-shadow: 3px 13px 175px 42px black;
+				font-size: 28px;
+				text-align: center;
+				position: absolute;
+				left: 210px;
+				top: 400px;
+				visibility: hidden;}
+
+			#reloj {width: 30px;
+					height: 30px;
+					position: absolute;
+					left: 510px;
+					top: 245px;}
+
+			#p3{background-image: url(img/aranazo.jpg);
+				color: red;
+				width: 310px;
+				height: 360px;
+				padding: 15px;
+				border-radius: 1em;
+				box-shadow: 3px 13px 175px 42px black;
+				font-size: 28px;
+				text-align: center;
+				position: absolute;
+				left: 800px;
+				top: 150px;
+				visibility: hidden;}
+
+		</style>
+
+		<!-- JAVA SCRIPT-->
+
+		<script type="text/javascript">
+			function mostrar(elemento) {
+ 				el=document.getElementById (elemento);
+ 				el.style.visibility="visible";
+ 				}
+			function ocultar(elemento) {
+ 				el=document.getElementById (elemento);
+ 				el.style.visibility="hidden";
+ 				}
+ 			function sonar(elemento) {
+ 				var audio = document.getElementById(elemento);
+ 				audio.play();
+ 				}
+ 			function pausar(elemento) {
+ 				var audio = document.getElementById(elemento);
+ 				audio.pause();
+ 				}
+ 
+		</script>
+	</head>
+
+	<!-- Aquí empieza el body y al actualizar se carga la canción de fondo-->
+
+	<body onload="sonar('musicaFondo')">
+		<div id="wrapper">
+			<p id="p1">En este Halloween 2017 <b>. . .</b></br>
+			si vienes a mi fiesta,</br>
+			no intentes dormirte</br>
+			</br> Pulsa </p>
+
+			<div id="marcoMano">
+				<img src="img/chirriante.gif" id="mano" />
+			</div>
+
+			<p id="p2">
+			Busca el reloj, para saber </br> Dónde? y Cuándo? es la fiesta
+			<div id="reloj" onclick="mostrar('p3');ocultar('p2');sonar('juego')"></div>
+			</p>
+
+			<p id="p3"></br></br></br></br></br></br></br>
+			La fiesta será en Elm Street</br>
+			el 31 de octubre a las 00:00h</br>Te esperaré...
+			</p>
+
+
+
+			<!-- IMÁGENES -->
+
+			<img src="img/boton.png" id="boton1" onclick="sonar('chirridoMano');
+			mostrar('marcoMano');mostrar('mano');mostrar('boton2')" />
+			<img src="img/boton.png" id="boton2" onclick="sonar('tocaPuerta');
+			ocultar('marcoMano');ocultar('mano');mostrar('puerta');ocultar('boton2');pausar('chirridoMano')" />
+			<img src="img/puerta.jpg" id="puerta" ondblclick="mostrar('cafeteria');mostrar('p2'); ocultar('p1');ocultar('boton1');ocultar('puerta');mostrar('retroceso');sonar('puertaAbierta')"; onclick="sonar('golpePuerta');"/>
+			<img src="img/retroceso.png" id="retroceso" onclick="mostrar('p1');mostrar('boton1');sonar('teAcuerdasDeMi');ocultar('cafeteria');ocultar('p3');ocultar('retroceso');ocultar('p2');pausar('juego')" />
+			<img src="img/chirriante.jpg" id="chirriante" />
+			<img src="img/cafeteria.jpg" id="cafeteria" />
+
+			<!-- SONIDOS -->
+
+			<audio id="musicaFondo" preload="auto">
+			<source id="musicaFondo" preload="auto" src="sonidos/fondo.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+
+			<audio id="teAcuerdasDeMi" preload="auto">
+			<source id="teAcuerdasDeMi" preload="auto" src="sonidos/teAcuerdasDeMi.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+
+			<audio id="chirridoMano" preload="auto">
+			<source id="chirridoMano" preload="auto" src="sonidos/chirridoMano.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+
+			<audio id="tocaPuerta" preload="auto">
+			<source id="tocaPuerta" preload="auto" src="sonidos/PegaEnLaPuerta.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+
+			<audio id="puertaAbierta" preload="auto">
+			<source id="puertaAbierta" preload="auto" src="sonidos/puertaAbierta.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+
+			<audio id="golpePuerta" preload="auto">
+			<source id="golpePuerta" preload="auto" src="sonidos/golpePuerta.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+
+			<audio id="juego" preload="auto">
+			<source id="juego" preload="auto" src="sonidos/juego.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+			</audio>
+		</div>
+	</body>
+</html>

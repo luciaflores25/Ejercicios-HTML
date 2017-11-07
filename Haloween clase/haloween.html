@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Haloween</title>
+		<meta charset="utf-8">
+		<link href="favicon.ico" rel="shortcut icon">
+		<link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+		<style type="text/css">
+
+			body 
+				{background-color: #000;}
+
+			#wrapper 
+				{width: 1024px;
+				height: 768px;
+				margin: 0 auto;
+				font-family: 'Eater', cursive;
+				background-image: url(fondo.jpg);}
+
+			#uno
+				{padding-top: 50px;
+				padding-left: 50px;
+				font-size: 40px;}
+
+			#dos
+				{padding-left: 80px;
+				font-size: 25px;}
+
+			#zombie
+				{position: absolute;
+					left: 500px;
+					top: 300px;
+				visibility: hidden;}
+
+			#luna
+				{width: 110px;
+				height: 110px;
+				margin-left: 700px;
+				margin-top: -30px;}
+
+		</style>
+		<script type="text/javascript">
+			function mostrar(elemento) {
+ 				el=document.getElementById (elemento);
+ 				el.style.visibility="visible";}
+			function ocultar(elemento) {
+ 				el=document.getElementById (elemento);
+ 				el.style.visibility="hidden";}
+
+ 			function sonar(elemento) {
+ 				var audio = document.getElementById(elemento);
+ 				audio.play();
+ 				}
+ 			function pausar(elemento) {
+ 				var audio = document.getElementById(elemento);
+ 				audio.pause();
+ 				}
+		</script>
+	</head>
+	<body onload="sonar('sonido1')">
+		<audio id="sonido1" preload="auto" controls="controls">
+			<source id="sonido1" preload="auto" src="sonidos/lullaby.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+		</audio>
+		<audio id="sonido2">
+			<source id="sonido2" preload="auto" src="sonidos/grito.mp3"></source>
+ 			este navegador no puede reproducir audio nativo
+		</audio>
+
+
+		<div id="wrapper">
+			<p id="uno">Terrorífica fiesta de halloween</p>
+			<div id="luna" onmouseover="mostrar('zombie');
+			sonar('sonido2');" 
+			onmouseout="ocultar('zombie');
+			pausar('sonido2');"></div>
+
+			<p id="dos">No perturbes la paz de los muertos<br/>
+			No te acerques a la luna</p>
+			<img id="zombie" src="zombie.gif"/>
+		</div>
+
+	</body>
+</html>

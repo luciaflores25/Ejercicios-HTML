@@ -5,7 +5,7 @@ Ejercicios y trabajos de la asignatura de **Lenguaje de Marcas** de **1º de DAW
 
 ## A continuación se muestrar imágenes de los Ejercicios:
 
-<p><b>Ejercicio Otoño con tile<b><p>
+<p><b>Ejercicio Otoño con tile<b><p> :fallen_leaf:
 <img src="img/otoño1.JPG" width="400px"><br>
 
 <p><b>Otro Ejercicio Otoño sin tile<b><p>

@@ -1,0 +1,65 @@
+body {font-family: Arial, Verdana, sans-serif;
+	background-color: rgb(252,191,162);}
+
+#wrapper{width: 970px;
+		margin: 0 auto;}
+
+#header {background-image: url(imagenes/header.jpg);
+		height: 225px;
+		border-radius: 30px;
+		margin-bottom: 20px;}
+
+#titulo {position: relative;
+		top: 90px;
+		left: 50px;
+		font-size: 22px;
+		font-weight: bold;
+		color: rgb(224,84,59);}
+
+#nav {width: 200px;
+	height: 500px;
+	background-color: rgb(192,250,254);
+	float: left;/*El float para que el trozo blanco siguiente e ponga al lado, tb hay que ponerselo al main*/
+	border-right: 3px solid rgb(85,188,197);
+	text-align: center;
+	font-weight: bold;
+	border-radius: 30px;
+	margin-bottom: 20px;}
+
+#nav a{text-decoration: none;
+	color: rgb(15,65,100);}
+
+#nav a:hover {color: rgb(224,84,59);}
+
+
+#main {width: 737px;
+	height: 500px;
+	background-color: white;
+	float: left;/*al igual qe la barra de navegación hay que ponerle el float psra qe en lugar de que se ponga una debajo de otra, se ponga a la izquierda*/
+	padding: 0 15px;
+	color: rgb(15,65,100);
+	text-align: justify;/*Ponerlo siempre que la maestra es muy maniática*/
+	border-radius: 30px;
+	margin-bottom: 20px;}
+
+#main h2{text-align: center;
+		color: rgb(224,84,59);}
+
+#main p{text-indent: 30px;}
+
+	/*Después de haber puesto float en el nav hay que poner un clear en lo qe vaya debajo, en este caso en el footer*/
+#footer{clear: both;
+		background-color: rgb(85,188,197);
+		/*height: 70px;*/
+		text-align: center;
+		font-size: 75%;
+		font-weight: bold;
+		padding: 10px;
+		border-radius: 30px;
+		margin-bottom: 20px;}
+
+#main img.izq{float: left;
+				margin: 5px;}
+
+#main img.dcha{float: right;
+				margin: 5px;}

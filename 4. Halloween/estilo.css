@@ -1,0 +1,104 @@
+body{background-image: url(img/tile.jpg);}
+
+#wrapper{background-image: url(img/tuberias.jpg);
+		border-radius: 2em;
+		box-shadow: 3px 13px 175px 42px black;
+		font-family: 'Creepster', cursive;
+		width: 945px;
+		height: 708px;
+		margin: 0 auto;}
+
+#cafeteria{background-color: black;
+			margin-left: 0 auto;
+			width: 950px;
+			height: 708px;
+			visibility: hidden;}
+
+#p1{background-image: url(img/manchaSangre.jpg);
+	width: 360px;
+	height: 150px;
+	padding: 15px;
+	border-radius: 1em;
+	font-size: 28px;
+	text-align: center;
+	position: absolute;
+	left: 100px;
+	top: 70px;}
+
+#puerta{border-radius: 1em;
+		border-radius: 1em;
+		width: 200px;
+		height: 360px;
+		position: absolute;
+		left: 1150px;
+		top: 310px;
+		visibility: hidden;}
+
+#marcoMano{background-image: url(img/manchaSangre.jpg);
+			border-radius: 1em;
+			width: 340px;
+			height: 250px;
+			position: absolute;
+			left: 150px;
+			top: 320px;
+			visibility: hidden;}
+
+#mano{border-radius: 1em;
+		width: 320px;
+		height: 230px;
+		padding: 10px;
+		visibility: hidden;}
+
+#boton1{width: 35px;
+		height: 35px;
+		position: absolute;
+		left: 340px;
+		top: 245px;}
+
+#boton2{width: 35px;
+		height: 35px;
+		position: absolute;
+		left: 440px;
+		top: 515px;
+		visibility: hidden;}
+
+#retroceso{width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 120px;
+			top: 20px;
+			visibility: hidden;}
+
+#p2{background-image: url(img/fuegoNaranja.jpg);
+	color: orange;
+	width: 360px;
+	height: 150px;
+	padding: 15px;
+	border-radius: 1em;
+	box-shadow: 3px 13px 175px 42px black;
+	font-size: 28px;
+	text-align: center;
+	position: absolute;
+	left: 210px;
+	top: 400px;
+	visibility: hidden;}
+
+#reloj {width: 30px;
+		height: 30px;
+		position: absolute;
+		left: 510px;
+		top: 245px;}
+
+#p3{background-image: url(img/aranazo.jpg);
+	color: red;
+	width: 310px;
+	height: 360px;
+	padding: 15px;
+	border-radius: 1em;
+	box-shadow: 3px 13px 175px 42px black;
+	font-size: 28px;
+	text-align: center;
+	position: absolute;
+	left: 800px;
+	top: 150px;
+	visibility: hidden;}

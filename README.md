@@ -31,8 +31,8 @@ Ejercicios y trabajos de la asignatura de **Lenguaje de Marcas** de **1º de DAW
 <img src="img/realidadAumentada.JPG" width="400px"><br>
 
  * Ejercicio Tortilla de patatas <br><br>
-<img src="img/tortilla.JPG" width="400px"><br>
+<img src="img/tortilla.jpg" width="400px"><br>
 
  * Ejercicio Diseño Floral <br><br>
-<img src="img/disenoFloral.JPG" width="400px"><br>
+<img src="img/disenoFloral.jpg" width="400px"><br>
 

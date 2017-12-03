@@ -1,0 +1,35 @@
+			body 
+				{background-color: rgb(166,13,20);}
+
+			h1{margin-left: 200px;
+			   font-size: 1.5em;
+			   font-family: 'Amatic SC', cursive;
+			   text-shadow: 5px 5px 3px orange,
+							-5px 5px 3px orange,
+							 5px -5px 3px orange,
+							-5px -5px 3px orange;}
+			#wrapper 
+				{background-color: white;
+				width: 550px;
+				text-align: center;
+				font-size: 1.5em;
+				border: .1em solid rgb(166,13,20);
+				border-radius: 3em;
+				padding: left 200px;
+				margin: 10px auto;
+				font-family: 'Amatic SC', cursive;
+				background-color: #FAFAFA;
+				background-image: url(imagenes/tile.jpg);
+				background-position: left;
+				background-repeat: repeat-y;
+				box-shadow: 25px 10px 20px rgb(143,183,51);}
+            
+            #uno {margin-left: 200px}
+               
+			#dos {margin-left: 200px}
+
+			#tres {margin-left: 200px}
+
+			small {margin-left: 200px}
+
+			p:first-letter{font-size: 150%}

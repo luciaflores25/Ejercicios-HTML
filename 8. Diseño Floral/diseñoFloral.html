@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Diseño floral</title>
+	<link href="favicon.ico" rel="shortcut icon">
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	<style type="text/css">
+		* {margin: 0px;
+			padding: 0px;}
+		body{ background-color: rgb(122,156,123);
+				font-family: 'Kalam', cursive; }
+		#wrapper{ width: 800px;
+					margin: 0 auto;
+					border: 4px solid rgb(63,86,22);
+
+				}
+		header { background-image: url(imagenes/cabecera.jpg);
+				height: 200px; /* ponemos la altura, sino no aparece la imagen de cabecera*/
+				border-bottom: 5px solid rgb(63,86,22);
+				
+				}
+		#rotulo{position: relative;
+				top: 25px;
+				left: 50px;
+				font-family: 'Kalam', cursive;
+				font-size: 50px;
+				color: rgb(84,44,78);
+				}
+		nav {width: 170px;
+			height: 400px;
+			float: left; /*para que quede pegado a la izquierda, rectángulo de la izquierda*/
+			background-color: #FFF;
+			border-right: 5px solid rgb(63,86,22);
+			}
+		nav ul{padding-left: 25px;
+				margin: 10px;
+				list-style-image: url(imagenes/flormalva2.jpg);}
+
+		nav a{text-decoration: none;}
+
+		nav a:hover{color:red;}
+
+		nav p{padding-left: 10px;}
+
+		.dcha {float: right;}
+
+		section {width: 625px;
+				height: 400px;
+				background-color: white;
+				float: left;
+				}
+		footer {clear: both;}
+		td{width: 200px;
+			text-align: center;
+			}
+		table{margin: 20px;}
+
+		#recuadro {background-color: rgb(211,175,219);
+					padding: 5px;}
+
+		#contacto {text-align: center;
+					clear: both;}
+
+	</style>
+</head>
+<body>
+	<div id="wrapper" >
+		<header>
+			<div id="rotulo"> Diseño floral</div>
+
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="diseñoFloral.html"> Principal</a></li>
+				<li><a href="diseñoFloral.html">Arreglos Florales</a></li>
+				<li><a href="diseñoFloral.html">Eventos</a></li>
+				<li><a href="diseñoFloral.html">Bodas</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			<div id="recuadro"> <img class="dcha" src="imagenes/red-heart-icon.png"/><p>Ofertas san valentin</p></div>
+			<div id="contacto"><p>Ven a conocernos<br>Estamos en:<br>Avda. Primavera, 16<br>Telf: 952 22 22 22 <br>Campanillas</p><div>
+		</nav>
+
+		<section>
+			<table>
+				<tr>
+					<td><img src="imagenes/rosas.jpg" alt="Ramo de rosas rojas"/></td>
+					<td>Disponemos de una amplia variedad de bonsais importados directamente desde oriente</td>
+					<td><img src="imagenes/orquidea.jpg" alt="Maceta con orquídea"></td>
+				</tr>
+				<tr>
+					<td>Un clásico qe nunca falla, el ramo de rosas rojas</td>
+					<td><img src="imagenes/bonsai.jpg" alt="bonsai"></td>
+					<td>Las orquídeas son siempre el regalo más elegante</td>
+				</tr>
+			</table>
+
+		</section>
+
+		<footer></footer>
+
+
+	</div>
+
+
+</body>
+</html>

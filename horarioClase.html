@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horario de Clase</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{background-color: silver;}
+
+		#wrapper{background-color: white;
+				width: 900px;
+				margin: 0 auto;}
+
+		h1 {text-align: center;}
+
+		th, td {border: 1px solid #000;
+				width: 150px;
+				height: 35px;
+				padding: 5px;
+				text-align: center;}
+
+		th{background-color: lightblue;}
+
+		table {border: 3px solid red;
+				border-collapse: collapse;}
+
+		#recreo {letter-spacing: 47px;
+				font-weight: bold;
+				background-color: lightgreen;}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+	<h1>Horario de Clase de 1º de DAW</h1>
+	<table>
+		<tr>
+			<th></th>
+			<th>Lunes</th>
+			<th>Martes</th>
+			<th>Miércoles</th>
+			<th>Jueves</th>
+			<th class="">Viernes</th>
+		</tr>
+		<tr>
+			<th>8:15 - 9:15</th>
+			<td rowspan="3">Sistemas Informáticos</td>
+			<td rowspan="3">Programación</td>
+			<td rowspan="3">Sistemas Informáticos</td>
+			<td rowspan="3">Programación</td>
+			<td rowspan="2">Programación</td>
+		</tr>
+		<tr>
+			<th>9:15 - 10:15</th>
+		</tr>
+		<tr>
+			<th>10:15 - 11:15</th>
+			<td>Entorno de Desarrollo</td>
+		</tr>
+		<tr>
+			<th>11:15 - 11:45</th>
+			<td colspan="5" id="recreo">R E C R E O</td>
+		</tr>
+		<tr>
+			<th>11:45 - 12:40</th>
+			<td rowspan="3">Formación y Orientación Laboral</td>
+			<td rowspan="3">Base de Datos</td>
+			<td rowspan="2">Entorno de Desarrollo</td>
+			<td rowspan="3">Base de Datos</td>
+			<td rowspan="3">Lenguaje de Marcas</td>
+		</tr>
+		<tr>
+			<th>12:40 - 13:35</th>
+		</tr>
+		<tr>
+			<th>13:35 - 14:30</th>
+			<td>Lenguaje de Marcas</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

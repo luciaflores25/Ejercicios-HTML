@@ -1,0 +1,91 @@
+* {margin: 0px;
+	padding: 0px;}
+
+body{ background-color: rgb(238,238,238);
+	font-family: verdana; }
+
+#wrapper{ width: 1000px;
+		margin: 10px auto;
+		box-shadow: 10px 14px 29px -4px rgba(0,0,0,0.75);
+		border: 1px solid rgb(30,0,138);
+		border-top: 2px solid rgb(30,0,138);
+		border-bottom: 2px solid rgb(30,0,138);
+	}
+
+header { background-image: url(imagenes/header.jpg);
+		width: 999px;
+		height: 222px;
+		border-bottom: 1px solid rgb(30,0,138);}
+
+#rotulo{position: relative;
+		top: 160px;
+		left: 500px;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 30px;
+		color: white;}
+
+#tituloNav{
+	background-color: white;
+	color:rgb(160,98,81);
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	margin: 5px;
+}
+
+nav {width: 198px;
+	height: 600px;
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+	background-color: rgb(231,228,255);
+	border-right: 2px solid black;}
+
+nav ul li{padding: 7px;
+		font-weight: bold;
+		list-style:none;}
+
+nav a{text-decoration: none;}
+
+nav a:hover{color:rgb(160,98,81);}
+
+section {width: 800px;
+		height: 615px;
+		background-color: white;
+		float: left;}
+
+section h2{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: rgb(30,0,138);
+}
+
+section p{
+	padding: 10px;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+footer {clear: both;
+		width: 999px;
+		border-top: 1px solid black;
+		background-image: url(imagenes/mar2.jpg);
+		color: white;
+		padding-top: 5px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 14px;
+		height: 39px;}
+
+td{width: 266.6px;
+	text-align: center;}
+
+table{margin: 20px;}
+
+table img{width: 210px;
+			height: 170px;
+			border-radius: 20px;}

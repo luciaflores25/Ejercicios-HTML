@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<style type="text/css">
+		
+		body{background-color: #eee;}
+
+		#wrapper{width: 900px;
+				height: 600px;
+				background-color: white;
+				margin: 0 auto;
+				padding: 20px;}
+
+		h2 {text-align: center;}
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<form method="post" action="">
+			<h2>Datos de la cuenta de cliente</h2>
+
+			<p><label>Nombre: </label>
+			<input type="text" name="nombre" maxlength="30" size="5"></p>
+
+			<p><label>Apellidos: </label>
+			<input type="text" name="apellidos"></p>
+
+			<p><label>Contraseña: </label>
+			<input type="password" name="contra"></p>
+
+			<p><label>Repite la contraseña: </label>
+			<input type="password" name="contra2"></p>
+
+			<p><input type="checkbox" name="acepto">
+			<label>Acepto las condiciones de contrato: </label></p>
+
+			<p>Sexo: </p>
+			<p><input type="radio" name="sexo" value="masculino">
+			<label>Masculino </label></p>
+
+			<p><input type="radio" name="sexo" value="femenino">
+			<label>Femenino </label></p>
+
+			<p><input type="radio" name="sexo" value="otro" checked="checked">
+			<label>Otro </label></p>
+
+			<p><input type="file" name="foto"></p>
+
+			<textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios...</textarea>
+
+			<input type="submit" name="enviar" value="Enviar">
+
+			<input type="reset" name="borrar" value="Borrar">
+		</form>
+	</div>
+</body>
+</html>

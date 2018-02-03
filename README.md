@@ -24,15 +24,30 @@ Ejercicios y trabajos de la asignatura de **Lenguaje de Marcas** de **1º de DAW
  * Trabajo Halloween :sos:<br><br>
 <img src="img/halloween.JPG" width="400px"><br>
 
- * Ejercicio Alagaësia <br><br>
+ * Examen Alagaësia <br><br>
 <img src="img/alagaesia.JPG" width="400px"><br>
 
- * Ejercicio Realidad Aumentada <br><br>
+ * Examen Realidad Aumentada <br><br>
 <img src="img/realidadAumentada.JPG" width="400px"><br>
 
  * Ejercicio Tortilla de patatas <br><br>
 <img src="img/tortilla.jpg" width="400px"><br>
 
- * Ejercicio Diseño Floral <br><br>
+ * Examen Diseño Floral <br><br>
 <img src="img/disenoFloral.jpg" width="400px"><br>
+
+ * Examen Málaga, una ciudad con arte <br><br>
+<img src="img/malaga.JPG" width="400px"><br>
+
+ * Carrousel 3D giratorio <br><br>
+<img src="img/carrousel.JPG" width="400px"><br>
+
+ * Examen Islas Canarias <br><br>
+<img src="img/canarias.JPG" width="400px"><br>
+
+ * Examen programación y robotica educativa <br><br>
+<img src="img/robotica.JPG" width="400px"><br>
+
+ * Examen Aventura natural <br><br>
+<img src="img/aventuraNatural.JPG" width="400px"><br>
 

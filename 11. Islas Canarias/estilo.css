@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: rgb(201,203,254);
+	font-family: verdana;
+}
+
+#wrapper{
+	margin: 10px auto;
+	border: 5px solid rgb(0,3,155);
+	width: 840px;
+}
+
+header{
+	background-image: url(imagenes/islas.jpg);
+	background-repeat: repeat;
+	width: 840px;
+	height: 115px;
+	border-bottom: 5px solid rgb(0,3,155);
+}
+
+#titulo{
+	color: white;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 40px;
+}
+
+nav{
+	width: 200px;
+	height: 600px;
+	float: left;
+	border-right: 5px solid rgb(0,3,155);
+	background-image: url(imagenes/Green-Background.jpg);
+}
+
+nav ul{
+	padding-top: 25px;
+	padding-left: 45px;
+	padding-bottom: 25px;
+	list-style-image: url(imagenes/menu_icon_arrow.gif);
+
+}
+
+nav a{
+	text-decoration: none;
+	color: rgb(246,255,198);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+nav a:hover{
+	color:blue;
+}
+
+#textoNav{
+	padding-top: 50px;
+	text-align: center;
+	color: rgb(246,255,198);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+section{
+	float: left;
+	background-color: white;
+	width: 635px;
+	height: 600px;
+	
+}
+
+section h3{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: rgb(11,128,0);
+}
+
+section p{
+	padding: 10px;
+	font-size: 14px;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+#p1{
+	margin: 10px;
+}
+
+td{
+	width: 200px;
+	text-align: center;
+}
+
+table{
+	margin: 20px;
+	font-size: 15px;
+}
+
+#ultParrafo{
+	font-size: 16px;
+	color: rgb(11,128,0);
+	text-align: center;
+	font-weight: bold;
+}
+
+
+footer{
+	clear: both;
+}

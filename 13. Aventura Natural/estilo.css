@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: rgb(255,230,174);
+	font-family: verdana;
+}
+
+#wrapper{
+	width: 950px;
+	margin: 5px auto;
+}
+
+header{
+	background-image: url(imagenes/cabecera.jpg);
+	height: 224px;
+}
+
+#oficinas{
+	background-color: black;
+	color: rgb(255,230,174);
+	padding: 10px;
+	text-align: center;
+}
+
+#oficinas a{
+	text-decoration: none;
+	color: rgb(255,230,174);
+}
+
+#oficinas a:hover{
+	color: rgb(164,77,57);
+}
+
+nav{
+	background-color: rgb(220,220,220);
+	width: 180px;
+	height: 370px;
+	border-right: 2px solid black;
+	text-align: center;
+	padding: 20px;
+	float: left;
+}
+
+nav ul li{
+	list-style-type: none;
+	padding: 7px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: rgb(195,139,142);
+}
+
+#contacte{
+	margin-top: 50px;
+}
+
+section{
+	float: left;
+	width: 728px;
+	height: 410px;
+	background-color: rgb(220,220,220);
+	text-align: center;
+}
+
+section h2{
+	color: rgb(195,139,142);
+	margin-top: 30px;
+}
+
+section table{
+	margin: 0px auto;
+	margin-top: 15px;
+}
+
+section table td{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+section .p1y2{
+	position: relative;
+	top: 15px;
+}
+
+footer{
+	clear: both;
+	background-color: rgb(220,220,220);
+	height: 50px;
+	border-bottom: 10px solid black;
+}

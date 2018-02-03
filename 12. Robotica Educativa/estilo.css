@@ -1,0 +1,141 @@
+*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body{
+			font-family: verdana;
+		}
+
+		#wrapper{
+			width: 1000px;
+			margin: 0px auto;
+		}
+
+		header{
+			background-image: url(imagenes/header.jpg);
+			height: 258px;
+		}
+
+		#titulo{
+			color: white;
+			font-size: 26px;
+			position: relative;
+			top: 210px;
+			left: 20px;
+		}
+
+		nav{
+			width: 200px;
+			height: 600px;
+			float: left;
+			background-color: rgb(122,136,161);
+			text-align: center;
+		}
+
+		nav ul li{
+			padding-left: 100px;
+			list-style:none;
+		}
+
+		#img1{
+			position: relative;
+			top: 30px;
+			left: -40px;
+		}
+
+		#img2{
+			width: 70px;
+			height: 70px;
+			position: relative;
+			top: 40px;
+			left: -40px;
+		}
+
+		#img3{
+			width: 75px;
+			height: 50px;
+			position: relative;
+			top: 40px;
+			left: -40px;
+		}
+
+		#img4{
+			width: 60px;
+			height: 60px;
+			position: relative;
+			top: 40px;
+			left: -40px;
+		}
+
+		nav a{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+		nav a:hover{
+			color:orange;
+		}
+
+		section{
+			float: left;
+			width: 800px;
+		}
+
+		section h2{
+			text-align: center;
+			padding-top: 30px;
+			color: orange;
+		}
+
+		section p{
+			padding: 10px;
+			text-align: justify;
+			text-indent: 30px;
+			font-size: 15px;
+		}
+
+		#robot{
+			position: relative;
+			top: 40px;
+			left: 5px;
+		}
+
+		#p123{
+			width: 660px;
+			position: relative;
+			left: 150px;
+			top: -150px;
+		}
+
+		#arduino{
+			position: relative;
+			left: 610px;
+			bottom: 160px;
+		}
+
+		#p45{
+			width: 620px;
+			position: relative;
+			bottom: 340px;
+		}
+
+		#p6{
+			width: 730px;
+			position: relative;
+			bottom: 340px;
+		}
+
+		footer{
+			clear: both;
+			background-color: rgb(122,136,161);
+			color: white;
+			font-size: 13px;
+			font-weight: bold;
+			text-align: center;
+			padding: 5px;
+			position: relative;
+			bottom: 330px;
+		}
